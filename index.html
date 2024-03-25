@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Know You Better</title>
+</head>
+<body class="m-auto px-40 py-10 max-w-screen-xl">
+    <div class="pb-10">
+        <div class="bg-sky-500 text-white w-full h-auto text-center content-center justify-center m-auto p-10 text-2xl font-semibold">
+            <p class="mb-2">Welcome!</p>
+            <p>Let's get to know YOU better</p>
+        </div>
+    </div>
+    <form action="https://formspree.io/f/mnqegazg" method="post">
+        <div class="flex-auto">
+            <!-- Name/Age/Nick -->
+            <div class="flex justify-center items-center">
+                <label class="text-black w-32 font-semibold" for="name">Name:</label>
+                <input name="Name" id="name" type="text" required placeholder="Name" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+            <div class="flex justify-center items-center">
+                <label class="text-black w-32 font-semibold" for="age">Age:</label>
+                <input name="Age" id="age" type="text" required placeholder="Age" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+            <div class="flex justify-center items-center pb-4">
+                <label class="text-black w-32 font-semibold" for="nickname">Nickname:</label>
+                <input name="Nickname" id="nickname" type="text" placeholder="Nickname (optional)" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+
+            <!-- Things I Love -->
+            <div class="bg-pink-500 text-center py-3 text-white font-semibold text-2xl m-auto">THINGS I LOVE</div>
+            <div class="flex justify-center items-center">
+                <label class="text-black w-32 font-semibold" for="passions">Passions / Interests:</label>
+                <input name="Passions" id="passions" type="text" required placeholder="Passions/Interests" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+            <div class="flex justify-center items-center">
+                <label class="text-black w-32 font-semibold" for="happy">What makes you happy:</label>
+                <input name="Happy" id="happy" type="text" required placeholder="What makes you happy?" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+            <div class="flex justify-center items-center pb-4">
+                <label class="text-black w-32 font-semibold" for="beliefs">Beliefs / Values:</label>
+                <input name="Beliefs" id="beliefs" type="text" required placeholder="Beliefs/Values" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+
+            <!-- Important Things -->
+            <div class="bg-green-400 text-center py-3 text-white font-semibold text-2xl m-auto">IMPORTANT THINGS</div>
+            <div class="flex justify-center items-center">
+                <label class="text-black w-32 font-semibold" for="strengths">Strengths:</label>
+                <input name="Strengths" id="strengths" type="text" required placeholder="Strengths" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+            <div class="flex justify-center items-center">
+                <label class="text-black w-32 font-semibold" for="difficulty">Current difficulties:</label>
+                <input name="Difficulty" id="difficulty" type="text" required placeholder="Current difficulties" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+            <div class="flex justify-center items-center">
+                <label class="text-black w-32 font-semibold" for="change">Things you would change:</label>
+                <input name="Happy" id="happy" type="text" required placeholder="What you currently want to change" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+            <div class="flex justify-center items-center pb-4">
+                <label class="text-black w-32 font-semibold" for="beliefs">Personality traits:</label>
+                <input name="Change" id="change" type="text" required placeholder="Personality traits" class=" text-black placeholder-gray-600 w-full px-4 py-2.5 mt-2 text-base transition duration-500 ease-in-out transform border-transparent rounded-lg bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400">
+            </div>
+
+            <!-- This or That -->
+            <div class="pb-1">
+                <div class="bg-yellow-500 text-center py-3 text-white font-semibold text-2xl m-auto">THIS OR THAT</div>
+            </div>
+            <div class="pb-1">
+                <div class="bg-yellow-600 text-center py-2 text-black font-semibold text-xl m-auto">When someone has upset me I</div>
+            </div>
+            <div class="pb-1">
+                <div class="grid grid-cols-2 w-full h-16 bg-yellow-300 pl-2 items-center">
+                    <label><input type="radio" name="upset_me" value="Talk to that person about it" /> Talk to that person about it</label>
+                    <label><input type="radio" name="upset_me" value="Brush it off and avoid conflict" /> Brush it off and avoid conflict</label>
+                </div>
+            </div>
+            <div class="pb-1">
+                <div class="bg-yellow-600 text-center py-2 text-black font-semibold text-xl m-auto">I would rather be</div>
+            </div>
+            <div class="pb-1">
+                <div class="grid grid-cols-2 w-full h-16 bg-yellow-300 pl-2 items-center">
+                    <label><input type="radio" name="rather_be" value="Indoors" /> Indoors</label>
+                    <label><input type="radio" name="rather_be" value="Outdoors" /> Outdoors</label>
+                </div>
+            </div>
+            <div class="pb-1">
+                <div class="bg-yellow-600 text-center py-2 text-black font-semibold text-xl m-auto">I need daily</div>
+            </div>
+            <div class="pb-1">
+                <div class="grid grid-cols-2 w-full h-16 bg-yellow-300 pl-2 items-center">
+                    <label><input type="radio" name="daily_need" value="Alone Time" /> Alone Time</label>
+                    <label><input type="radio" name="daily_need" value="Time With Others" /> Time With Others</label>
+                </div>
+            </div>
+            <div class="pb-1">
+                <div class="bg-yellow-600 text-center py-2 text-black font-semibold text-xl m-auto">I want</div>
+            </div>
+            <div class="pb-1">
+                <div class="grid grid-cols-2 w-full h-16 bg-yellow-300 pl-2 items-center">
+                    <label><input type="radio" name="want" value="More Freedom" /> More Freedom</label>
+                    <label><input type="radio" name="want" value="More Family Time" /> More Family Time</label>
+                </div>
+            </div>
+            <div class="pb-1">
+                <div class="bg-yellow-600 text-center py-2 text-black font-semibold text-xl m-auto">I really like communicating</div>
+            </div>
+            <div class="pb-4">
+                <div class="grid grid-cols-2 w-full h-16 bg-yellow-300 pl-2 items-center">
+                    <label><input type="radio" name="communicate" value="In Person Or Video Call" /> In Person Or Video Call</label>
+                    <label><input type="radio" name="communicate" value="Text or Email" /> Text or Email</label>
+                </div>
+            </div>
+
+            <!-- Deep Thoughts -->
+            <div class="bg-purple-500 text-center py-3 text-white font-semibold text-2xl m-auto">DEEP THOUGHTS</div>
+            <div class="grid grid-cols-2 justify-center items-center pt-2 gap-2">
+                <label class="text-black font-semibold bg-purple-300 p-1" for="activities">Activities or surroundings that cause you frustration or unhappiness:</label>
+                <textarea name="activities" id="activities" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+            <div class="grid grid-cols-2 justify-center items-center pt-1 gap-2">
+                <label class="text-black font-semibold bg-purple-300 p-1" for="stress">How do you currently respond or cope with stress or challenging situations?</label>
+                <textarea name="stress" id="stress" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+            <div class="grid grid-cols-2 justify-center items-center pt-1 gap-2">
+                <label class="text-black font-semibold bg-purple-300 p-1" for="better_life">Are there any things or thoughts that get in the way of your life going better?</label>
+                <textarea name="better_life" id="better_life" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+            <div class="grid grid-cols-2 justify-center items-center pt-1 gap-2">
+                <label class="text-black font-semibold bg-purple-300 p-1" for="one_goal">List at least 1 goal or accomplishment you would like to achieve:</label>
+                <textarea name="one_goal" id="one_goal" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+            <div class="grid grid-cols-2 justify-center items-center pt-1 pb-4 gap-2">
+                <label class="text-black font-semibold bg-purple-300 p-1" for="mindfulness">Have you ever used mindfulness or relaxation techniques? If so, which ones:</label>
+                <textarea name="mindfulness" id="mindfulness" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+
+            <!-- Random Questions -->
+            <div class="bg-cyan-500 text-center py-3 text-white font-semibold text-2xl m-auto">RANDOM QUESTIONS</div>
+            <div class="grid grid-cols-2 justify-center items-center pt-2 gap-2">
+                <label class="text-black font-semibold bg-cyan-400 p-1" for="teach_class">If you had to teach a class on one very important thing, what would you teach?</label>
+                <textarea name="teach_class" id="teach_class" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+            <div class="grid grid-cols-2 justify-center items-center pt-2 gap-2">
+                <label class="text-black font-semibold bg-cyan-400 p-1" for="live_inside">If you could live inside any book, movie or video game, which would you choose and why?</label>
+                <textarea name="live_inside" id="live_inside" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+            <div class="grid grid-cols-2 justify-center items-center pt-2 gap-2">
+                <label class="text-black font-semibold bg-cyan-400 p-1" for="eliminate">If you could eliminate one thing from your daily routine, what would it be and why?</label>
+                <textarea name="eliminate" id="eliminate" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+            <div class="grid grid-cols-2 justify-center items-center py-2 gap-2">
+                <label class="text-black font-semibold bg-cyan-400 p-1" for="bring_joy">What Activities bring you joy and fulfillment? How do you incorporate them into your life?</label>
+                <textarea name="bring_joy" id="bring_joy" required class="text-black placeholder-gray-600 w-full h-full text-base transition duration-500 ease-in-out transform border-transparent bg-gray-200  focus:border-blueGray-500 focus:bg-white focus:outline-none focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2 ring-gray-400"></textarea>
+            </div>
+
+            <div class="flex justify-end mr-auto pt-2">
+                <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
